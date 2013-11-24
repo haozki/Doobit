@@ -1,0 +1,35 @@
+
+
+
+Doobit 0.0.2-alpha 2013-09-28
+
+- 修正Where条件不能留空的Bug
+
+
+
+Doobit 0.0.2-alpha 2013-09-27
+
+- 去除宏定义连接参数常量，每次必须传递配置参数
+- 修改配置项实现方式，分离自定义配置，一旦传递自定义配置则不再单个保留默认值
+- 分离数据库选择和数据库字符设定到成员方法
+- 配置项增加字符集设置
+- 增加reset函数，每次执行query后还原Active Record变量默认值
+
+
+
+Doobit 0.0.1-alpha 2013-08-28
+
+- 增加Active Record方法select
+- 增加新浪SAE配置文件
+
+
+
+Doobit 0.0.1-alpha 2013-08-26
+
+- 增加Active Record支持（目前只支持insert、update、delete）
+
+
+
+Doobit 0.0.1-base 2013-08-25
+
+- 创建Base版
